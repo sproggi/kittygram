@@ -49,14 +49,14 @@ python3 manage.py runserver
 ```
 ### Аутентификация
 | Endpoints | appointment | method |
-| ------ | ------ |
+| ------ | ------ | ------ |
 | [/auth/users/] | Send pair username / password to sign up | POST |
 | [/auth/jwt/create/] | Create JWT Token | POST |
 | [/auth/jwt/refresh/] | Refresh JWT Token | POST |
 
 ### POST and GET requests
 | Endpoints | appointment | method |
-| ------ | ------ |
+| ------ | ------ | ------ |
 | [/cats/] | Get all posted cats | GET |
 | [/cats/] | Post cats | POST |
 | [/achievements/] | Get all achievements by cats | GET |
